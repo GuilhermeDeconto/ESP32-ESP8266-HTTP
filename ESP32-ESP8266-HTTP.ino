@@ -30,7 +30,7 @@ void setup() {
   dht.begin();
 
   Serial.println("Connecting to wifi: ");
-  Serial.println(ssid);
+  Serial.println(WIFI_SSID);
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
